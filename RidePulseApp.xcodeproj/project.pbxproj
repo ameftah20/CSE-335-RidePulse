@@ -6,8 +6,29 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		E3660A422F41225500F2C3D1 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3660A3F2F41211700F2C3D1 /* RootView.swift */; };
+		E3660A432F41226500F2C3D1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3660A412F41213A00F2C3D1 /* HomeView.swift */; };
+		E3660A442F41226B00F2C3D1 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3660A3E2F41210200F2C3D1 /* HomeViewModel.swift */; };
+		E3660A452F41227100F2C3D1 /* DTOs.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3660A3A2F41208A00F2C3D1 /* DTOs.swift */; };
+		E3660A462F41227600F2C3D1 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3660A392F41206B00F2C3D1 /* Models.swift */; };
+		E3660A472F41227E00F2C3D1 /* TransitAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3660A3B2F4120A300F2C3D1 /* TransitAPI.swift */; };
+		E3660A482F41228300F2C3D1 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3660A3C2F4120C200F2C3D1 /* LocationManager.swift */; };
+		E3660A492F41228800F2C3D1 /* StopsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3660A3D2F4120E000F2C3D1 /* StopsTableView.swift */; };
+		E3660A4B2F4128FB00F2C3D1 /* ArrivalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3660A4A2F4128FB00F2C3D1 /* ArrivalsView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		E3660A262F411D7100F2C3D1 /* RidePulseApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RidePulseApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3660A392F41206B00F2C3D1 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		E3660A3A2F41208A00F2C3D1 /* DTOs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTOs.swift; sourceTree = "<group>"; };
+		E3660A3B2F4120A300F2C3D1 /* TransitAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitAPI.swift; sourceTree = "<group>"; };
+		E3660A3C2F4120C200F2C3D1 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		E3660A3D2F4120E000F2C3D1 /* StopsTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopsTableView.swift; sourceTree = "<group>"; };
+		E3660A3E2F41210200F2C3D1 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		E3660A3F2F41211700F2C3D1 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		E3660A412F41213A00F2C3D1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		E3660A4A2F4128FB00F2C3D1 /* ArrivalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrivalsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +53,7 @@
 		E3660A1D2F411D7100F2C3D1 = {
 			isa = PBXGroup;
 			children = (
+				E3660A342F411E6B00F2C3D1 /* RidePulse */,
 				E3660A282F411D7100F2C3D1 /* RidePulseApp */,
 				E3660A272F411D7100F2C3D1 /* Products */,
 			);
@@ -43,6 +65,54 @@
 				E3660A262F411D7100F2C3D1 /* RidePulseApp.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		E3660A342F411E6B00F2C3D1 /* RidePulse */ = {
+			isa = PBXGroup;
+			children = (
+				E3660A382F411EA400F2C3D1 /* Services */,
+				E3660A372F411E9700F2C3D1 /* Views */,
+				E3660A362F411E8E00F2C3D1 /* ViewModels */,
+				E3660A352F411E8400F2C3D1 /* Models */,
+			);
+			path = RidePulse;
+			sourceTree = "<group>";
+		};
+		E3660A352F411E8400F2C3D1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E3660A3A2F41208A00F2C3D1 /* DTOs.swift */,
+				E3660A392F41206B00F2C3D1 /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E3660A362F411E8E00F2C3D1 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E3660A3E2F41210200F2C3D1 /* HomeViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E3660A372F411E9700F2C3D1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E3660A412F41213A00F2C3D1 /* HomeView.swift */,
+				E3660A3F2F41211700F2C3D1 /* RootView.swift */,
+				E3660A4A2F4128FB00F2C3D1 /* ArrivalsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E3660A382F411EA400F2C3D1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E3660A3D2F4120E000F2C3D1 /* StopsTableView.swift */,
+				E3660A3C2F4120C200F2C3D1 /* LocationManager.swift */,
+				E3660A3B2F4120A300F2C3D1 /* TransitAPI.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +189,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3660A432F41226500F2C3D1 /* HomeView.swift in Sources */,
+				E3660A472F41227E00F2C3D1 /* TransitAPI.swift in Sources */,
+				E3660A4B2F4128FB00F2C3D1 /* ArrivalsView.swift in Sources */,
+				E3660A452F41227100F2C3D1 /* DTOs.swift in Sources */,
+				E3660A442F41226B00F2C3D1 /* HomeViewModel.swift in Sources */,
+				E3660A422F41225500F2C3D1 /* RootView.swift in Sources */,
+				E3660A492F41228800F2C3D1 /* StopsTableView.swift in Sources */,
+				E3660A462F41227600F2C3D1 /* Models.swift in Sources */,
+				E3660A482F41228300F2C3D1 /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +332,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "RidePulse needs your location to show nearby transit stops.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -284,6 +364,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "RidePulse needs your location to show nearby transit stops.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
