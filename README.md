@@ -1,1 +1,1 @@
-This is Where ALL Project Phases will be tracked for cse 335
+Personal project because I was trying to make rides for students wee bit better
